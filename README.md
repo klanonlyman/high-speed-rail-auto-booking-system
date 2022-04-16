@@ -12,7 +12,7 @@ Using voice identify verification code and booking 50% off ticket.
 
 <h3>This section, I will detail descript how do I implement it</h3>
 <ul>
-  <li>you have to download some voice file from web of HSR, and then change their file name with corresponding code.(you can reference my folder, its name is 123)</li>
+  <li>you have to download some voice file from web of HSR, and then change their file name with corresponding code.(you can reference my folder, its name is "manual")</li>
   <li>
     Because a voice file represent four alphabets or numbers , so we must divide it to corresponding word. Then, how do I do this thing?
     <ul>
