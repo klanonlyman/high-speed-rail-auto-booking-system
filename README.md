@@ -62,7 +62,7 @@ Using voice identify verification code and booking 50% off ticket.
       <li>Calculate the DTW value between "source" and "dict", we will get the minmum value from a certain word. This is the answer</li>
       <li>It will record its answer on the excel.</li>
     </ul>
-    On top of these descriptions, you can refer to "generate voice and image data.py".
+    On top of these descriptions, you can refer to "generate voice and image data.py"
   </li>
   <li>
     <h3>The model and preprocessing will be described below</h3>
@@ -82,6 +82,7 @@ Using voice identify verification code and booking 50% off ticket.
           <img src="https://user-images.githubusercontent.com/103729404/163765459-87ad0b59-8257-4e64-83eb-853bcf693366.png"/>
       </li>
       <li><a href="https://www.bilibili.com/video/BV1f3411C7kb/?spm_id_from=333.788.recommend_more_video.4">This website</a> is the concept of vocie process, if you don't have any Knowledge about it ,then I suggest you to read it.</li>
+      On top of these descriptions, you can refer to "using voice train model.py"
     </ul>
   </li>
   <li>
@@ -95,7 +96,8 @@ Using voice identify verification code and booking 50% off ticket.
           <li>I will download a image file  and a voice file</li>
           <li>The model will predict it</li>
           <li>The predicted result will be show on the image such as the following:</li>
-          <img src="https://user-images.githubusercontent.com/103729404/163789410-629631e9-1cf6-49b5-9b13-1101f85c4282.png"/>
+          <img src="https://user-images.githubusercontent.com/103729404/163789410-629631e9-1cf6-49b5-9b13-1101f85c4282.png"/> </br>
+          On top of these descriptions, you can refer to "using voice visual test.py"
         </ul>
     </ul>
   </li>
