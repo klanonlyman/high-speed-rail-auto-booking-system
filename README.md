@@ -25,7 +25,6 @@ Using voice identify verification code and booking 50% off ticket.
       pip install h5py==2.10.0
       pip install opencv-python
   <li>second , download "chromedriver.exe", you can refer this <a href="https://medium.com/@bob800530/selenium-1-%E9%96%8B%E5%95%9Fchrome%E7%80%8F%E8%A6%BD%E5%99%A8-21448980dff9">website</a></li>
-  <li>third, bulid a floderand change its name to "train_data"</li>
 </ul>
 
 <h3>Program execution flow</h3>
