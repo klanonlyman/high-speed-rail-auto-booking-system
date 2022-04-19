@@ -3,6 +3,7 @@ Using voice identify verification code and booking 50% off ticket.
 <h3>You have to notice these below before doing it.</h3>
 <ul>
   <li>first, You have to check rebuild Anaconda's environment.</li>
+  
       #GPU-GTX1080
       #open your CMD, and follow the steps below
       conda create --name test_env python=3.6
@@ -29,7 +30,7 @@ Using voice identify verification code and booking 50% off ticket.
 
 <h3>Program execution flow</h3>
 <ul>
-  <li>First, excute "generate_voice_and_image_data.py" , then you will get more labeled data in the "train_data" folder.</li>
+  <li>First, excute "generate_voice_and_image_data.py" , then you will extend more labeled data in the "train_data" folder.</li>
   <li>Second, excute "using_voice_train_model.py" , it will take the training data from that folder , then it will train a model and store it to "voice.h5" file.</li>
-  <li>Third, excute "using_voice_visual_test.py" , using visual's method verify that model("voice.h5"), it will show a image and an answer.</li>
+  <li>Third, excute "using_voice_visual_test.py" , using visual's method verifies that model("voice.h5"), it will show a image and an answer.</li>
 </ul>
