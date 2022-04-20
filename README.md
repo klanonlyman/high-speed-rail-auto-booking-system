@@ -1,8 +1,8 @@
 # high-speed-rail-auto-booking-system
-Using voice identify verification code and booking 50% off ticket.
-<h3>You have to notice these below before doing it.</h3>
+Booking 50% off tickets using voice identify verification code.
+<h3>Before running this project, you must note the following</h3>
 <ul>
-  <li>first, You have to check rebuild Anaconda's environment.</li>
+  <li>You must check or rebuild Anaconda's environment.</li>
   
       #GPU-GTX1080
       #open your CMD, and follow the steps below
@@ -24,12 +24,12 @@ Using voice identify verification code and booking 50% off ticket.
       pip install keras==2.2.2
       pip install h5py==2.10.0
       pip install opencv-python
-  <li>second , download "chromedriver.exe", you can refer this <a href="https://medium.com/@bob800530/selenium-1-%E9%96%8B%E5%95%9Fchrome%E7%80%8F%E8%A6%BD%E5%99%A8-21448980dff9">website</a></li>
+  <li>Download "chromedriver.exe", you can refer this <a href="https://medium.com/@bob800530/selenium-1-%E9%96%8B%E5%95%9Fchrome%E7%80%8F%E8%A6%BD%E5%99%A8-21448980dff9">website</a></li>
 </ul>
 
 <h3>Program execution flow</h3>
 <ul>
-  <li>First, excute "generate_voice_and_image_data.py" , then you will extend more labeled data in the "train_data" folder.</li>
-  <li>Second, excute "using_voice_train_model.py" , it will take the training data from that folder , then it will train a model and store it to "voice.h5" file.</li>
-  <li>Third, excute "using_voice_visual_test.py" , using visual's method verifies that model("voice.h5"), it will show a image and an answer.</li>
+  <li>First, after excute "generate_voice_and_image_data.py", you will extend more labeled data in the "train_data" folder.</li>
+  <li>Second,after excute "using_voice_train_model.py" , it will take the training data from that folder , then it will train a model and store it to "voice.h5" file.</li>
+  <li>Third,after excute "using_voice_visual_test.py" , using visual's method verifies that model("voice.h5"), it will show a image and an answer.</li>
 </ul>
