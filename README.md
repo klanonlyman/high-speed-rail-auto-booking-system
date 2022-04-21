@@ -1,5 +1,5 @@
 # high-speed-rail-auto-booking-system
-Booking 50% off tickets using voice identify verification code.
+Booking 50% off tickets using voice or image identify verification code.
 <h3>Before running this project, you must note the following</h3>
 <ul>
   <li>You must check or rebuild Anaconda's environment.</li>
@@ -32,6 +32,6 @@ Booking 50% off tickets using voice identify verification code.
   <li>First, after excute "generate_voice_and_image_data.py", you will extend more labeled data in the "train_data" folder.</li>
   <li>Second,after excute "using_voice_train_model.py" , it will take the training data from that folder , then it will train a model and store it to "voice.h5" file.</li>
   <li>Third,after excute "using_voice_visual_test.py" , using visual's method verifies that model("voice.h5"), it will show a image and an answer.</li>
-  <li>You can refer to "Using Image Train Model" if you wish to train the model using image data.</li>
+  <li>You can refer to "Using Image Train Model" if you wish to train the model using image data, ut your data needs far more than voice data, I used 5000 pictures</li>
 </ul>
 <h3>I don't put the booking system program because of some legal issues. If you want this code , then you can send an e-mail to "NE6091027@gs.ncku.edu.tw"</h3>
