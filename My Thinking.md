@@ -1,5 +1,5 @@
 # high-speed-rail-auto-booking-system
-Booking 50% off tickets using voice identify verification code.
+Booking 50% off tickets using voice or image identify verification code.
 <h3>The following is my method</h3>
 <ol>
   <li> The verification code will be downloaded using manual method, and each file will be labelled with the answer.<br/>
