@@ -33,3 +33,4 @@ Booking 50% off tickets using voice identify verification code.
   <li>Second,after excute "using_voice_train_model.py" , it will take the training data from that folder , then it will train a model and store it to "voice.h5" file.</li>
   <li>Third,after excute "using_voice_visual_test.py" , using visual's method verifies that model("voice.h5"), it will show a image and an answer.</li>
 </ul>
+<h3>I don't put the booking system program because of some legal issues. If you want this code , then you can send an e-mail to "NE6091027@gs.ncku.edu.tw"</h3>
